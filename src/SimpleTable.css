@@ -1,80 +1,80 @@
-/* SimpleTable.css */
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+table {
+
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th.header,
+td.cell {
+  text-align: left;
+}
+
+/* Add your color styles for different risk levels here */
+.low-1 {
+  background-color: green;
+}
+
+.moderate-2 {
+  background-color: yellow;
+}
+
+.high-3 {
+  background-color: red;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
 
 .table-container {
-    overflow-x: auto;
-    max-width: 100%;
-  }
-  
-  table {
-  
-    width: 100%;
-  }
-  
-  th,
-  td {
-    padding: 10px; /* Adjust the padding for spacing */
-    border: 1px solid #ddd; /* Add border for cells */
-  }
-  
-  th.header,
-  td.cell {
-    text-align: left;
-  }
-  
-  /* Add your color styles for different risk levels here */
-  .low-1 {
-    background-color: green;
-  }
-  
-  .moderate-2 {
-    background-color: yellow;
-  }
-  
-  .high-3 {
-    background-color: red;
-  }
-  
-  .header {
-    position: sticky;
-    top: 0;
-    background-color: #fff;
-    z-index: 1;
-  }
-  
-  .table-container {
-    overflow-x: auto;
-    max-width: 100%;
-  }
-  
-  .resize-handle {
-    width: 6px;
-    cursor: col-resize;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-  }
-  .table-container {
-    overflow-x: auto;
-    max-width: 100%;
-  }
-  
-  .header {
-    position: sticky;
-    top: 0;
-    background-color: #fff;
-    z-index: 1;
-  }
-  
-  .resize-handle {
-    width: 6px;
-    cursor: col-resize;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-  }
-  /* SimpleTable.css */
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.resize-handle {
+  width: 6px;
+  cursor: col-resize;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.resize-handle {
+  width: 6px;
+  cursor: col-resize;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* SimpleTable.css */
 .table-container {
   overflow-x: auto;
   max-width: 100%;
